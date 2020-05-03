@@ -8,7 +8,7 @@ VS Code extension to create a binding between your translations from .json files
 
 To install the extension just execute the following command:
 
-    ext install vscode-flutter-i18n-json
+    ext install bujupah.flutter-i18n-vscode
 
 You may also install the extension from the [visual studio code marketplace][1].
 
@@ -413,7 +413,7 @@ return new MaterialApp(
       ...
 ```
 
-[1]: https://marketplace.visualstudio.com/items?itemName=esskar.vscode-flutter-i18n-json
+[1]: https://marketplace.visualstudio.com/items?itemName=bujupah.flutter-i18n-vscode
 [2]: https://github.com/flutter/flutter/issues/14128
 [3]: https://flutter.dev/docs/development/accessibility-and-localization/internationalization#appendix-updating-the-ios-app-bundle
 [4]: https://github.com/esskar/vscode-flutter-i18n-json
