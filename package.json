@@ -5,10 +5,18 @@
   "version": "0.26.1",
   "publisher": "bujupah",
   "repository": "https://github.com/bujupah/flutter-i18n-vscode",
-  "keywords": ["vscode", "flutter", "dart", "i18n", "google", "yandex"],
+  "keywords": [
+    "vscode",
+    "flutter",
+    "dart",
+    "i18n",
+    "google",
+    "yandex",
+    "automation"
+  ],
   "author": {
     "name": "Khalil Mejdi",
-    "email": "bujupah@gmail.com"
+    "email": "khalil.mejdi97@gmail.com"
   },
   "engines": {
     "vscode": "^1.44.2"
