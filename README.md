@@ -1,6 +1,7 @@
 # flutter-i18n-vscode
 
-This is an updated version from [vscode-flutter-i18n-json][4] with the Yandex support, it does allow the translation of some languages :) 
+### This is a fork from [vscode-flutter-i18n-json][4]. 
+## Updated with the Yandex support.
 
 VS Code extension to create a binding between your translations from .json files and your Flutter app. You can also automagically generate translations for all your locales, based on Google or Yandex Translate.
 
@@ -8,7 +9,7 @@ VS Code extension to create a binding between your translations from .json files
 
 To install the extension just execute the following command:
 
-    ext install vscode-flutter-i18n-json
+    ext install flutter-i18n-vscode
 
 You may also install the extension from the [visual studio code marketplace][1].
 
@@ -18,7 +19,7 @@ You may also install the extension from the [visual studio code marketplace][1].
 2. Open your project, open the command palette and find the `Flutter I18n Json: Initialize` command.
 3. Enter a default locale, or press enter to use `en-US`.
 
-![init-command](https://raw.githubusercontent.com/esskar/vscode-flutter-i18n-json/master/images/extension_init.gif)
+![init-command](https://raw.githubusercontent.com/bujupah/flutter-i18n-vscode/master/images/extension_init.gif)
 
 ## Commands
 
@@ -386,7 +387,7 @@ etc...
 ```
 
 
-[1]: https://marketplace.visualstudio.com/items?itemName=esskar.vscode-flutter-i18n-json
+[1]: https://marketplace.visualstudio.com/items?itemName=bujupah.flutter-i18n-vscode
 There are still some [unresolved issues][2] in Flutter when trying to use localization with the iOS simulators. For more information to address this issue check the [flutter documentation][3]. 
 
 ### No Material-/CupertinoLocalizations found.
@@ -413,10 +414,16 @@ return new MaterialApp(
       ...
 ```
 
-[1]: https://marketplace.visualstudio.com/items?itemName=esskar.vscode-flutter-i18n-json
+[1]: https://marketplace.visualstudio.com/items?itemName=bujupah.flutter-i18n-vscode
 [2]: https://github.com/flutter/flutter/issues/14128
 [3]: https://flutter.dev/docs/development/accessibility-and-localization/internationalization#appendix-updating-the-ios-app-bundle
 [4]: https://github.com/esskar/vscode-flutter-i18n-json
 [5]: https://translate.yandex.com/developers
 [6]: https://passport.yandex.com/registration
 [7]: https://translate.yandex.com/developers/keys
+
+## Changelog
+
+## [v0.26.1](https://github.com/Bujupah/flutter-i18n-vscode) **Implemented enhancements:**
+
+- Add Yandex Support.[39fee5d8228011a41c796fcaf73b7fad84a0d68d](https://github.com/Bujupah/flutter-i18n-vscode/commit/39fee5d8228011a41c796fcaf73b7fad84a0d68d) ([bujupah](https://github.com/Bujupah))
