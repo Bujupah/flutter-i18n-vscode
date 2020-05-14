@@ -1,6 +1,6 @@
 # flutter-i18n-vscode
 
-### This is a fork from [vscode-flutter-i18n-json][4]. 
+This is an updated version from [vscode-flutter-i18n-json][4]. 
 ## Updated with the Yandex support.
 
 VS Code extension to create a binding between your translations from .json files and your Flutter app. You can also automagically generate translations for all your locales, based on Google or Yandex Translate.
