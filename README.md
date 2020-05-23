@@ -1,3 +1,7 @@
+<a href="https://dev.to/bujupah">
+  <img src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg" alt="Khalil Mejdi's DEV Profile" height="30" width="30">
+</a>
+
 # flutter-i18n-vscode
 
 This is an updated version from [vscode-flutter-i18n-json][4]. 
